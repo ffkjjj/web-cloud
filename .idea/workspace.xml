@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="baa5eba7-6c5e-4186-9658-e860ef0a5d31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/cf/zhul/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/cf/zhul/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/cf/zhul/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/cf/zhul/eureka/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/cf/zhul/eureka/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/test-classes/cf/zhul/eureka/DemoApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/service-feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/ServiceFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/service/IHelloErrorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/service/IHelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/test/java/cf/zhul/servicefeign/ServiceFeignApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/ServiceFeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/service/IHelloErrorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/service/IHelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/target/test-classes/cf/zhul/servicefeign/ServiceFeignApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/service-hi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/cf/zhul/servicehi/ServiceHiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/cf/zhul/servicehi/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/test/java/cf/zhul/servicehi/ServiceHiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/target/classes/cf/zhul/servicehi/ServiceHiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/target/classes/cf/zhul/servicehi/controller/HiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/target/test-classes/cf/zhul/servicehi/ServiceHiApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/cf/zhul/serviceribbon/ServiceRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/cf/zhul/serviceribbon/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/cf/zhul/serviceribbon/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/test/java/cf/zhul/serviceribbon/ServiceRibbonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/target/classes/cf/zhul/serviceribbon/ServiceRibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/target/classes/cf/zhul/serviceribbon/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/target/classes/cf/zhul/serviceribbon/service/HelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/target/test-classes/cf/zhul/serviceribbon/ServiceRibbonApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/cf/zhul/servicezuul/ServiceZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/cf/zhul/servicezuul/filter/MyZuulFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/test/java/cf/zhul/servicezuul/ServiceZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/target/classes/cf/zhul/servicezuul/ServiceZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/target/classes/cf/zhul/servicezuul/filter/MyZuulFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/target/test-classes/cf/zhul/servicezuul/ServiceZuulApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-cloud.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/MavenRepository" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aa9qZ6JQnrQ6pQSNaKcdx0hBX0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24372385" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.ServiceZuulApplication">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.zhul.eureka.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cf.zhul.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.zhul.servicefeign.ServiceFeignApplication" />
+      <module name="service-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cf.zhul.servicefeign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.zhul.servicehi.ServiceHiApplication" />
+      <module name="service-hi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cf.zhul.servicehi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.zhul.serviceribbon.ServiceRibbonApplication" />
+      <module name="service-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cf.zhul.serviceribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.zhul.servicezuul.ServiceZuulApplication" />
+      <module name="service-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cf.zhul.servicezuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Application.ServiceHiApplication" />
+      <item itemvalue="Application.ServiceRibbonApplication" />
+      <item itemvalue="Application.ServiceFeignApplication" />
+      <item itemvalue="Application.ServiceZuulApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceZuulApplication" />
+        <item itemvalue="Application.ServiceHiApplication" />
+        <item itemvalue="Application.ServiceFeignApplication" />
+        <item itemvalue="Application.ServiceRibbonApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showFilesets" value="false" />
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baa5eba7-6c5e-4186-9658-e860ef0a5d31" name="Default Changelist" comment="" />
+      <created>1586963028146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586963028146</updated>
+      <workItem from="1586963030424" duration="715000" />
+      <workItem from="1586963762618" duration="5454000" />
+      <workItem from="1586969492120" duration="6283000" />
+      <workItem from="1587090010130" duration="269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="904" y="398" width="1126" height="666" key="#Project_Structure" timestamp="1587089746428">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="904" y="398" width="1126" height="666" key="#Project_Structure/48.23.2512.1417@48.23.2512.1417" timestamp="1587089746428" />
+    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586967113999">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.2512.1417@48.23.2512.1417" timestamp="1586967113999" />
+    <state x="1117" y="444" key="#com.intellij.ide.util.MemberChooser" timestamp="1587089040981">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="1117" y="444" key="#com.intellij.ide.util.MemberChooser/48.23.2512.1417@48.23.2512.1417" timestamp="1587089040981" />
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2" timestamp="1587090347275">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2/48.23.2512.1417@48.23.2512.1417" timestamp="1587090347275" />
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom" timestamp="1587090004350">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom/48.23.2512.1417@48.23.2512.1417" timestamp="1587090004350" />
+    <state width="2470" height="527" key="GridCell.Tab.0.center" timestamp="1587090004349">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state width="2470" height="527" key="GridCell.Tab.0.center/48.23.2512.1417@48.23.2512.1417" timestamp="1587090004349" />
+    <state width="2470" height="527" key="GridCell.Tab.0.left" timestamp="1587090004348">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state width="2470" height="527" key="GridCell.Tab.0.left/48.23.2512.1417@48.23.2512.1417" timestamp="1587090004348" />
+    <state width="2470" height="527" key="GridCell.Tab.0.right" timestamp="1587090004349">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state width="2470" height="527" key="GridCell.Tab.0.right/48.23.2512.1417@48.23.2512.1417" timestamp="1587090004349" />
+    <state x="813" y="370" key="SettingsEditor" timestamp="1587090020375">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="813" y="370" key="SettingsEditor/48.23.2512.1417@48.23.2512.1417" timestamp="1587090020375" />
+    <state x="918" y="253" width="1212" height="957" key="new project wizard" timestamp="1587090074341">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="918" y="253" width="1212" height="957" key="new project wizard/48.23.2512.1417@48.23.2512.1417" timestamp="1587090074341" />
+    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1587089068861">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup/48.23.2512.1417@48.23.2512.1417" timestamp="1587089068861" />
+    <state x="1071" y="426" key="spring file set editor" timestamp="1586966185110">
+      <screen x="48" y="23" width="2512" height="1417" />
+    </state>
+    <state x="1071" y="426" key="spring file set editor/48.23.2512.1417@48.23.2512.1417" timestamp="1586966185110" />
+  </component>
+</project>
