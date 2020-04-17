@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa5eba7-6c5e-4186-9658-e860ef0a5d31" name="Default Changelist" comment="与 eureka 结合的配置中心">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-feign/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/target/classes/cf/zhul/servicefeign/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +70,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24372385" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
   </component>
-  <component name="RunManager" selected="Application.ServiceFeignApplication">
+  <component name="RunManager" selected="Application.ServiceHiApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cf.zhul.configserver.ConfigServerApplication" />
       <module name="config-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cf.zhul.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.zhul.eureka.EurekaServerApplication" />
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cf.zhul.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,20 +125,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rest-api_1#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.ServiceHiApplication" />
       <item itemvalue="Application.ServiceFeignApplication" />
-      <item itemvalue="Application.ServiceZuulApplication" />
       <item itemvalue="Application.ConfigServerApplication" />
-      <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Application.ServiceHiApplication" />
+      <item itemvalue="Application.ServiceZuulApplication" />
+      <item itemvalue="HTTP Request.rest-api_1#2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServiceFeignApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ServiceZuulApplication" />
         <item itemvalue="Application.ServiceHiApplication" />
+        <item itemvalue="Application.ServiceZuulApplication" />
+        <item itemvalue="Application.ServiceFeignApplication" />
+        <item itemvalue="HTTP Request.rest-api_1#2" />
+        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,7 @@
     <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,7 +176,7 @@
       <workItem from="1586963762618" duration="5454000" />
       <workItem from="1586969492120" duration="6283000" />
       <workItem from="1587090010130" duration="269000" />
-      <workItem from="1587090283012" duration="3054000" />
+      <workItem from="1587090283012" duration="10888000" />
     </task>
     <task id="LOCAL-00001" summary="一些基础服务与网关">
       <created>1587090521268</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587092806955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="与 eureka 结合的配置中心">
+      <created>1587093459165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587093459166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,45 +210,46 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="一些基础服务与网关" />
     <MESSAGE value="加入配置中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入配置中心" />
+    <MESSAGE value="与 eureka 结合的配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="与 eureka 结合的配置中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="398" width="1126" height="666" key="#Project_Structure" timestamp="1587091331791">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
     <state x="904" y="398" width="1126" height="666" key="#Project_Structure/48.23.2512.1417@48.23.2512.1417" timestamp="1587091331791" />
-    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586967113999">
+    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587118512722">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.2512.1417@48.23.2512.1417" timestamp="1586967113999" />
+    <state x="768" y="395" width="1199" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.2512.1417@48.23.2512.1417" timestamp="1587118512722" />
     <state x="1117" y="444" key="#com.intellij.ide.util.MemberChooser" timestamp="1587089040981">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
     <state x="1117" y="444" key="#com.intellij.ide.util.MemberChooser/48.23.2512.1417@48.23.2512.1417" timestamp="1587089040981" />
-    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2" timestamp="1587093440529">
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2" timestamp="1587119087645">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2/48.23.2512.1417@48.23.2512.1417" timestamp="1587093440529" />
-    <state width="2470" height="527" key="GridCell.Tab.0.bottom" timestamp="1587093272188">
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2/48.23.2512.1417@48.23.2512.1417" timestamp="1587119087645" />
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom" timestamp="1587118524070">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.bottom/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272188" />
-    <state width="2470" height="527" key="GridCell.Tab.0.center" timestamp="1587093272187">
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom/48.23.2512.1417@48.23.2512.1417" timestamp="1587118524070" />
+    <state width="2470" height="527" key="GridCell.Tab.0.center" timestamp="1587118524069">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.center/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272187" />
-    <state width="2470" height="527" key="GridCell.Tab.0.left" timestamp="1587093272187">
+    <state width="2470" height="527" key="GridCell.Tab.0.center/48.23.2512.1417@48.23.2512.1417" timestamp="1587118524069" />
+    <state width="2470" height="527" key="GridCell.Tab.0.left" timestamp="1587118524069">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.left/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272187" />
-    <state width="2470" height="527" key="GridCell.Tab.0.right" timestamp="1587093272188">
+    <state width="2470" height="527" key="GridCell.Tab.0.left/48.23.2512.1417@48.23.2512.1417" timestamp="1587118524069" />
+    <state width="2470" height="527" key="GridCell.Tab.0.right" timestamp="1587118524069">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.right/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272188" />
-    <state x="813" y="370" key="SettingsEditor" timestamp="1587090020375">
+    <state width="2470" height="527" key="GridCell.Tab.0.right/48.23.2512.1417@48.23.2512.1417" timestamp="1587118524069" />
+    <state x="813" y="370" key="SettingsEditor" timestamp="1587093665298">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="813" y="370" key="SettingsEditor/48.23.2512.1417@48.23.2512.1417" timestamp="1587090020375" />
+    <state x="813" y="370" key="SettingsEditor/48.23.2512.1417@48.23.2512.1417" timestamp="1587093665298" />
     <state x="904" y="473" key="Vcs.Push.Dialog.v2" timestamp="1587092810093">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
@@ -252,10 +258,10 @@
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
     <state x="918" y="253" width="1212" height="957" key="new project wizard/48.23.2512.1417@48.23.2512.1417" timestamp="1587090074341" />
-    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1587089068861">
+    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1587099052803">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup/48.23.2512.1417@48.23.2512.1417" timestamp="1587089068861" />
+    <state x="969" y="348" width="670" height="676" key="search.everywhere.popup/48.23.2512.1417@48.23.2512.1417" timestamp="1587099052803" />
     <state x="1071" y="426" key="spring file set editor" timestamp="1586966185110">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
