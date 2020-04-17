@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa5eba7-6c5e-4186-9658-e860ef0a5d31" name="Default Changelist" comment="">
+    <list default="true" id="baa5eba7-6c5e-4186-9658-e860ef0a5d31" name="Default Changelist" comment="与 eureka 结合的配置中心">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/cf/zhul/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/cf/zhul/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/cf/zhul/configserver/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/cf/zhul/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/java/cf/zhul/servicefeign/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,8 +140,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServiceFeignApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ServiceZuulApplication" />
         <item itemvalue="Application.ServiceHiApplication" />
       </list>
@@ -179,7 +178,7 @@
       <workItem from="1586963762618" duration="5454000" />
       <workItem from="1586969492120" duration="6283000" />
       <workItem from="1587090010130" duration="269000" />
-      <workItem from="1587090283012" duration="2265000" />
+      <workItem from="1587090283012" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="一些基础服务与网关">
       <created>1587090521268</created>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587090521268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加入配置中心">
+      <created>1587092806955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092806955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +204,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="一些基础服务与网关" />
-    <option name="LAST_COMMIT_MESSAGE" value="一些基础服务与网关" />
+    <MESSAGE value="加入配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入配置中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="398" width="1126" height="666" key="#Project_Structure" timestamp="1587091331791">
@@ -213,34 +220,34 @@
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
     <state x="1117" y="444" key="#com.intellij.ide.util.MemberChooser/48.23.2512.1417@48.23.2512.1417" timestamp="1587089040981" />
-    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2" timestamp="1587090520731">
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2" timestamp="1587093440529">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2/48.23.2512.1417@48.23.2512.1417" timestamp="1587090520731" />
-    <state width="2470" height="527" key="GridCell.Tab.0.bottom" timestamp="1587092787868">
+    <state x="882" y="318" width="1237" height="849" key="CommitChangelistDialog2/48.23.2512.1417@48.23.2512.1417" timestamp="1587093440529" />
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom" timestamp="1587093272188">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.bottom/48.23.2512.1417@48.23.2512.1417" timestamp="1587092787868" />
-    <state width="2470" height="527" key="GridCell.Tab.0.center" timestamp="1587092787866">
+    <state width="2470" height="527" key="GridCell.Tab.0.bottom/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272188" />
+    <state width="2470" height="527" key="GridCell.Tab.0.center" timestamp="1587093272187">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.center/48.23.2512.1417@48.23.2512.1417" timestamp="1587092787866" />
-    <state width="2470" height="527" key="GridCell.Tab.0.left" timestamp="1587092787865">
+    <state width="2470" height="527" key="GridCell.Tab.0.center/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272187" />
+    <state width="2470" height="527" key="GridCell.Tab.0.left" timestamp="1587093272187">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.left/48.23.2512.1417@48.23.2512.1417" timestamp="1587092787865" />
-    <state width="2470" height="527" key="GridCell.Tab.0.right" timestamp="1587092787867">
+    <state width="2470" height="527" key="GridCell.Tab.0.left/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272187" />
+    <state width="2470" height="527" key="GridCell.Tab.0.right" timestamp="1587093272188">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state width="2470" height="527" key="GridCell.Tab.0.right/48.23.2512.1417@48.23.2512.1417" timestamp="1587092787867" />
+    <state width="2470" height="527" key="GridCell.Tab.0.right/48.23.2512.1417@48.23.2512.1417" timestamp="1587093272188" />
     <state x="813" y="370" key="SettingsEditor" timestamp="1587090020375">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
     <state x="813" y="370" key="SettingsEditor/48.23.2512.1417@48.23.2512.1417" timestamp="1587090020375" />
-    <state x="904" y="473" key="Vcs.Push.Dialog.v2" timestamp="1587092782263">
+    <state x="904" y="473" key="Vcs.Push.Dialog.v2" timestamp="1587092810093">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
-    <state x="904" y="473" key="Vcs.Push.Dialog.v2/48.23.2512.1417@48.23.2512.1417" timestamp="1587092782263" />
+    <state x="904" y="473" key="Vcs.Push.Dialog.v2/48.23.2512.1417@48.23.2512.1417" timestamp="1587092810093" />
     <state x="918" y="253" width="1212" height="957" key="new project wizard" timestamp="1587090074341">
       <screen x="48" y="23" width="2512" height="1417" />
     </state>
